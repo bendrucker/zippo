@@ -1,0 +1,29 @@
+{
+  "name": "zippo",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "ZIP code validation and parsing",
+  "license": "MIT",
+  "repository": "bendrucker/zippo",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "zip",
+    "code",
+    "postal",
+    "us"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
