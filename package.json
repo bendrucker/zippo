@@ -1,7 +1,7 @@
 {
   "name": "zippo",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ZIP code validation and parsing",
   "license": "MIT",
   "repository": "bendrucker/zippo",
