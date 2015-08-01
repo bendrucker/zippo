@@ -1,6 +1,6 @@
 'use strict'
 
-var nonDigit = /[^\d]/
+var nonDigit = /[^\d]/g
 
 exports.parse = function parseZip (zip) {
   return zip.replace(nonDigit, '').substring(0, 5)
